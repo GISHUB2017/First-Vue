@@ -1,0 +1,38 @@
+第一天
+Q1.加载地图片的三中方式？
+//1.控件src加载,<img src="../assets/logo.png" />
+//2.import imgUrl from '@/assets/logo.png'
+//3.require('@/assets/logo.png'),
+
+Q2.控件V-Model绑定不及时更新控件值？
+1.data中没有值定义
+
+Q3.随机数据的生产？
+1. Mockjs
+    // Mock.mock({
+    // id: Mock.Random.guid(),
+    // name: Mock.Random.cname(),
+    // addr: Mock.mock('@county(true)'),
+    // 'age|18-60': 1,
+    // birth: Mock.Random.date(),
+    // sex: Mock.Random.integer(0, 1)})
+    
+Q4.Critical dependency: the request of a dependency is an expression?
+https://www.cnblogs.com/fanqshun/p/10073493.html
+
+Q5.(Emitted value instead of an instance of Error) the "scope" attribute 
+for scoped slots have been deprecated and replaced by "slot-scope" since 2.5. 
+The new "slot-scope" attribute can also be used on plain elements in addition 
+to <template> to denote scoped slots.?
+
+<template scope="xxx">yyyyyyyy</template>
+改成
+<template slot-scope="xxx">yyyyyyyy</template>
+scope属性在2.5以后的版本中已经废弃，被slot-scope替代
+slot-scope不光可以用在template元素上，也可以用在其它元素
+
+Q6.服务代理配置？
+https://www.cnblogs.com/shimily/articles/8981117.html
+
+Q7.Url中的#去掉
+https://www.cnblogs.com/libo0125ok/p/9593741.html
